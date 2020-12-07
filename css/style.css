@@ -7,6 +7,7 @@ body {
   font-family: "Poppins", sans-serif;
   font-family: "Source Serif Pro", serif;
   font-size: 16px;
+  overflow-x: hidden;
 }
 
 h1,
@@ -17,27 +18,36 @@ h3 {
 
 section.main {
   width: 100vw;
+  margin: 0 auto;
 }
 
 h1 {
-  font-size: 4.5rem;
+  font-size: 6rem;
   font-weight: 800;
-  color: rgb(0, 60, 255);
 }
 
 h1.hero {
   text-align: center;
   margin: 5%;
+  color: rgb(0, 60, 255);
+  line-height: 105%;
 }
 
 h1 > span {
-  background: -webkit-linear-gradient(rgb(20, 241, 131), rgb(1, 187, 147));
+  background: -webkit-linear-gradient(rgb(255, 102, 0), rgb(255, 161, 38));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 h1 > span:hover {
-  background: -webkit-linear-gradient(rgb(55, 0, 255), rgb(223, 8, 8));
+  background: -webkit-linear-gradient(rgb(0, 60, 255), rgb(0, 28, 121));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+section.main > h3 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 0 20%;
 }
