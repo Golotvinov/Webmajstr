@@ -4,6 +4,7 @@ include 'includes/header.php';
 
 <body>
 <section class="main">
+    <img src="img/webmajstrlogo.svg"  class="logo-big" alt="Logo stránky">
     <h1 class="hero">Vítá vás <span>Webmajstr</span>!</h1>
     <h3>Webmajstr je webová miniaplikace, která vám pomůže pochopit základy webového vývoje. Představí vám jak web
         funguje, fundamentální koncepty kódování, tipy a triky a nakonec vám nabídne i kvíz, kde si budete moci
@@ -16,6 +17,8 @@ include 'includes/header.php';
         <button class="button2" onclick="location.href='#'" type="button">JDEME NA TO!</button>
     </div>
 </section>
+
+<footer>Toto je seminární práce k předmětu </footer>
 
 <script src="/js/main.js"></script>
 </body>

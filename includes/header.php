@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="cs">
 
+<!-- Toto je seminární práce k předmětu Tvorba www aplikací (OPBI1I120A). Vytvořil A. D. Golotvinov v roce 2020. -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
