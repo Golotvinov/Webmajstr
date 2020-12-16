@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="cs">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Seminární práce Golotvinov - Start</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Source+Serif+Pro&display=swap"
-          rel="stylesheet">
-</head>
+<?php
+include 'includes/header.php';
+?>
 
 <body>
 <section class="main">
@@ -22,7 +13,7 @@
         <img src="img/webwireframe.svg" alt="Vektorové schéma prototypu webových stránek">
     </section>
     <div class="btn">
-    <button class="button2" onclick="location.href='#'" type="button">JDEME NA TO!</button>
+        <button class="button2" onclick="location.href='#'" type="button">JDEME NA TO!</button>
     </div>
 </section>
 
