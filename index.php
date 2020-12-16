@@ -20,9 +20,8 @@ include 'includes/header.php';
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2>Předtím než začneme prosím uveď svoje jméno:</h2>
-            <br><br>
+            <br>
             <form>
-                <label for="fname">Jméno</label>
                 <input type="text" id="fname" name="fname">
             </form>
             <br>
