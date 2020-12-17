@@ -11,7 +11,7 @@ include 'includes/header.php';
         funguje, fundamentální koncepty kódování, tipy a triky a nakonec vám nabídne i kvíz, kde si budete moci
         vyzkoušet své nově dobyté znalosti. </h3>
     <section class="webwireframe">
-        <img src="img/webwireframe.svg" id="ww" Vektorové schéma prototypu webových stránek">
+        <img src="img/webwireframe.svg" id="ww" alt="Vektorové schéma prototypu webových stránek">
     </section>
     <div class="btn">
         <button id="button2" class="button" type="button">JDEME NA TO!</button>
