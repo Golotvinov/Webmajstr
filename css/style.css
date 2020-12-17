@@ -34,8 +34,8 @@ p {
 
 section.main {
     width: 100vw;
-    padding-bottom: 10px;
     display: grid;
+    margin-bottom: 150px;
 }
 
 .logo-big {
@@ -43,7 +43,7 @@ section.main {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: -50px;
-    padding-top: 30px;
+    padding-top: 50px;
 }
 
 h1.hero {
@@ -85,17 +85,21 @@ div.btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 200px;
 }
 
 #button2 {
     font-weight: 800;
     margin-top: -200px;
     font-size: 3rem;
+    z-index: 2;
 }
 
 #button2:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+#button2:hover ~ #ww {
+    background-color: red;
 }
 
 .button {
@@ -168,3 +172,16 @@ input[type=text]:focus {
     cursor: pointer;
 }
 
+hr {
+    border: 7px solid var(--main-green);
+}
+
+footer {
+    border-top: 5px solid var(--main-green);
+    background-color: #FFF;
+    padding: 30px;
+}
+
+footer > p {
+    text-align: center;
+}

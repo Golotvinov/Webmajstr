@@ -1,3 +1,5 @@
+/* Homepage modal */
+
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("button2");
 var span = document.getElementsByClassName("close")[0];
@@ -15,3 +17,6 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
+
+/* END */
+
