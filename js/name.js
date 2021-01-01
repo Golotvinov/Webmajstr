@@ -1,0 +1,1 @@
+document.getElementById("lsOutput").innerHTML = localStorage.getItem("fname");
