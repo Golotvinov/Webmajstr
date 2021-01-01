@@ -1,14 +1,14 @@
 /* Homepage modal */
 
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("button2");
-var span = document.getElementsByClassName("close")[0];
+const modal = document.getElementById("myModal");
+const btn2 = document.getElementById("button2");
+const closeBtn = document.getElementsByClassName("close")[0];
 
-btn.onclick = function() {
+btn2.onclick = function() {
     modal.style.display = "block";
 }
 
-span.onclick = function() {
+closeBtn.onclick = function() {
     modal.style.display = "none";
 }
 
