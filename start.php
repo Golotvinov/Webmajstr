@@ -22,16 +22,14 @@ include 'includes/header.php';
             <h2>Předtím než začneme prosím uveď svoje jméno:</h2>
             <br>
             <form>
-                <input type="text" id="fname" placeholder="Jmeno" required>
-                <input type="text" id="other" placeholder="Prijmeni" required>
+                <input type="text" id="fname" placeholder="Např. Aleks" required>
             </form>
             <br>
-            <button id="hotovoBtn" class="button" type="button">Hotovo!</button>
+            <button id="submitNameBtn" class="button" type="button">Hotovo!</button>
         </div>
     </div>
 </section>
-<footer><p>&copy;Webmajstr | Vytvořil A. D. Golotvinov</p></footer>
-<script src="js/main.js"></script>
-</body>
 
-</html>
+<?php
+include 'includes/footer.php';
+?>

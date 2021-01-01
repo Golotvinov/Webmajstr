@@ -20,4 +20,22 @@ window.onclick = function(event) {
 
 /* NAME save */
 
+const fname = document.getElementById('fname');
+const submitNameBtn = document.getElementById('submitNameBtn');
+const lsOutput = document.getElementById('lsOutput');
 
+submitNameBtn.onclick = function () {
+    const key = fname.value;
+
+    console.log(key);
+
+    if (key) {
+        localStorage.setItem('fname', fname.value);
+        location.href="index.php";
+    }
+}
+
+for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    const value = localStorage.getItem(key);
+}

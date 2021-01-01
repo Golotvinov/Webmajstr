@@ -35,7 +35,7 @@ p {
 section.main {
     width: 100vw;
     display: grid;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .logo-big {
@@ -141,12 +141,13 @@ div.btn {
     margin: auto;
     padding: 50px;
     border: 1px solid #888;
-    width: 970px;
+    width: 900px;
 }
 
 input[type=text] {
-    width: 30%;
-    padding: 12px 20px;
+    width: 67%;
+    padding: 12px 0;
+    margin-bottom: 35px;
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid var(--main-green);
@@ -178,6 +179,8 @@ input[type=text]:focus {
 hr {
     border: 7px solid var(--main-green);
 }
+
+/* ==============  FOOTER  ============== */
 
 footer {
     border-top: 5px solid var(--main-green);
