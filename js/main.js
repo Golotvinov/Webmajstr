@@ -1,4 +1,4 @@
-/* Homepage modal */
+/* Homepage MODAL */
 
 const modal = document.getElementById("myModal");
 const btn2 = document.getElementById("button2");
@@ -18,5 +18,6 @@ window.onclick = function(event) {
     }
 }
 
-/* END */
+/* NAME save */
+
 
