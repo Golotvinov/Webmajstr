@@ -3,6 +3,7 @@
 * {
     padding: 0;
     margin: 0;
+    scrollbar-color: var(--main-green) var(--secondary-green);
 }
 
 :root {
@@ -31,6 +32,18 @@ h1 {
 
 p {
     font-family: "Source Serif Pro", serif;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--secondary-green);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--main-green);
 }
 
 /* ==============  HOME PAGE  ============== */
