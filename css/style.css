@@ -8,6 +8,9 @@
 :root {
     --main-green: rgb(0, 219, 171);
     --secondary-green: rgb(6, 186, 122);
+    --main-blue: rgb(3, 175, 255);
+    --secondary-blue: rgb(0, 110, 183);
+    --red: rgb(239, 0, 0);
 }
 
 body {
@@ -60,7 +63,7 @@ h1 > span {
 }
 
 h1 > span:hover {
-    background: -webkit-linear-gradient(rgb(3, 175, 255), rgb(0, 110, 183));
+    background: -webkit-linear-gradient(var(--main-blue), var(--secondary-blue));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -95,10 +98,6 @@ div.btn {
 
 #button2:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-}
-
-#button2:hover ~ #ww {
-    background-color: red;
 }
 
 .button {
@@ -150,6 +149,11 @@ input[type=text] {
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid var(--main-green);
+    font-family: "Poppins", sans-serif;
+}
+
+::placeholder {
+    font-family: "Poppins", sans-serif;
 }
 
 input[type=text]:first-child {
