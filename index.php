@@ -1,9 +1,9 @@
 <?php
 include 'includes/header.php';
 ?>
-<body>
-<h1>Nazdar</h1>
-<p id="lsOutput"></p>
+
+<p><span id="lsOutput"></span> bude brzy umět tvořit weby!</p>
+    <br><br><br><br><br><br>
 <?php
 include 'includes/footer.php';
 ?>

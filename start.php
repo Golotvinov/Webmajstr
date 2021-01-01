@@ -2,8 +2,6 @@
 include 'includes/header.php';
 ?>
 
-<body>
-<hr>
 <section class="main">
     <img src="img/webmajstrlogo.svg" class="logo-big" alt="Logo stránky">
     <h1 class="hero">Vítá vás <span>Webmajstr</span>!</h1>
