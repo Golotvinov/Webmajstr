@@ -5,9 +5,9 @@ include 'includes/header.php';
 <section class="main">
     <img src="img/webmajstrlogo.svg" class="logo-big" alt="Logo stránky">
     <h1 class="hero">Vítá vás <span>Webmajstr</span>!</h1>
-    <h3>Webmajstr je webová miniaplikace, která vám pomůže pochopit základy webového vývoje. Představí vám jak web
+    <p>Webmajstr je webová miniaplikace, která vám pomůže pochopit základy webového vývoje. Představí vám jak web
         funguje, fundamentální koncepty kódování, tipy a triky a nakonec vám nabídne i kvíz, kde si budete moci
-        vyzkoušet své nově dobyté znalosti. </h3>
+        vyzkoušet své nově dobyté znalosti. </p>
     <section class="webwireframe">
         <img src="img/webwireframe.svg" id="ww" alt="Vektorové schéma prototypu webových stránek">
     </section>

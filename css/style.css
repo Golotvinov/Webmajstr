@@ -21,7 +21,7 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2 {
+h1, h2, h3, h4, h5 {
     font-family: "Poppins", sans-serif;
 }
 
@@ -31,11 +31,38 @@ h1 {
 }
 
 h2 {
-    font-size: 3rem;
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h4 {
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+    color: #b0b0b0;
+}
+
+h5 {
+    font-size: 1.3;
+    margin-bottom: 7px;
 }
 
 p {
     font-family: "Source Serif Pro", serif;
+}
+
+p > a {
+    text-decoration: none;
+    color: var(--secondary-blue);
+    font-weight: 600;
+}
+
+p > a:hover {
+    color: var(--main-green);
 }
 
 hr {
@@ -90,11 +117,9 @@ h1 > span:hover {
     -webkit-text-fill-color: transparent;
 }
 
-section.main > h3 {
-    font-family: "Source Serif Pro", serif;
+section.main > p {
     margin: 0 auto;
     text-align: center;
-    font-weight: 400;
     font-size: 1.5rem;
     max-width: 1000px;
 }
@@ -297,17 +322,25 @@ nav a {
 
 .description {
     font-size: 1.2rem;
-    padding: 40px 0;
+    padding-bottom: 30px;
 }
 
 /* ==============  FOOTER  ============== */
 
 footer {
+    display: grid;
     border-top: 5px solid var(--main-green);
     background-color: #FFF;
     padding: 30px;
 }
 
 footer > p {
+    font-size: 1.1em;
     text-align: center;
+}
+
+.kittvLogo {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 200px;
 }
