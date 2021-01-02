@@ -24,7 +24,7 @@ include 'includes/header.php';
         <a href="#news">Nástroje</a>
         <a href="#news">Kvíz</a>
     </nav>
-<p><span id="lsOutput"></span> bude brzy mistrem webů!</p>
+<p>Vítej, <span id="lsOutput"></span>!</p>
 </header>
 <?php
 include 'includes/footer.php';

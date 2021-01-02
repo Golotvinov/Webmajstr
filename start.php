@@ -17,10 +17,10 @@ include 'includes/header.php';
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <h2>Předtím než začneme prosím uveď svoje jméno:</h2>
+            <h2>Předtím než začneme prosím napiš jak tě máme oslovovat:</h2>
             <br>
             <form>
-                <input type="text" id="fname" placeholder="Např. Aleks" required>
+                <input type="text" id="fname" placeholder="Např. Aleksi / Honzo / Markéto ..." required>
             </form>
             <br>
             <button id="submitNameBtn" class="button" type="button">Hotovo!</button>
