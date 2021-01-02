@@ -18,7 +18,6 @@ include 'includes/header.php';
         <div class="modal-content">
             <span class="close">&times;</span>
             <h2 class="modalH2">Předtím než začneme prosím napiš jak tě máme oslovovat:</h2>
-            <br>
             <form>
                 <input type="text" id="fname" placeholder="Např. Aleksi / Honzo / Markéto ..." required>
             </form>
@@ -27,7 +26,7 @@ include 'includes/header.php';
         </div>
     </div>
 </section>
-
+<script src="js/start.js"></script>
 <?php
 include 'includes/footer.php';
 ?>
