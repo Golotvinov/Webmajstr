@@ -28,8 +28,8 @@ include 'includes/header.php';
         <p>Vítej, <span id="lsOutput"></span>!</p>
     </header>
     <section class="content">
-    <h2>Vyber si z hlavní nabídky téma, které tě zajímá.</h2>
-        <p class="description">Na Webmajstru si můžeš témata studovat v libovolném pořadí, ale doporučujeme se držer>
+    <h2>Začínáme.</h2>
+        <p class="description">Na Webmajstru si můžeš témata studovat v libovolném pořadí, ale doporučujeme se držet logicky navrženého pořadí, pokud s webovým designem a vývojem nemáš žádné předchozí zkušenosti. Postupuj v hlavní nabídce zleva doprava, od sekce O Webu až po Kvíz, ve kterém si budeš moci procvičit své zanlosti</p>
     </section>
 <?php
 include 'includes/footer.php';
