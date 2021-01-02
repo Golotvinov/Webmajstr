@@ -194,9 +194,8 @@ div.btn {
 }
 
 input[type=text] {
-    width: 65%;
     padding: 12px 0;
-    margin-bottom: 35px;
+    margin-bottom: 15px;
     box-sizing: border-box;
     border: none;
     border-bottom: 2px solid var(--main-green);
@@ -333,9 +332,36 @@ aside {
     min-width: 350px;
 }
 
-#newNote {
-    margin-right: 0;
-    width: 100%;
+.notesBtn {
+    padding: 12px 15px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    background-color: #FFF;
+    cursor: pointer;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+}
+
+.notesBtn:hover {
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.14), 0 10px 30px 0 rgba(0, 0, 0, 0.10);
+    color: #FFF;
+}
+
+.btnAdd {
+    margin-right: 12px;
+}
+
+.btnAdd:hover {
+    background-color: var(--secondary-green);
+}
+
+.btnEdit:hover {
+    background-color: var(--secondary-blue);
+}
+
+.btnDeleteAll:hover {
+    background-color: var(--red);
 }
 
 /* ==============  FOOTER  ============== */
