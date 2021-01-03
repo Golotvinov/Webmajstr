@@ -12,7 +12,7 @@ addtaskbtn.addEventListener("click", function () {
     addtaskinputval = addtaskinput.value;
     if (addtaskinputval.trim() != 0) {
         let webtask = localStorage.getItem("localtask");
-        if (webtask == null) {
+        if (webtask === null) {
             taskObj = [];
         } else {
             taskObj = JSON.parse(webtask);
@@ -27,7 +27,7 @@ addtaskbtn.addEventListener("click", function () {
 // showtask
 function showtask() {
     let webtask = localStorage.getItem("localtask");
-    if (webtask == null) {
+    if (webtask === null) {
         taskObj = [];
     } else {
         taskObj = JSON.parse(webtask);
@@ -135,7 +135,7 @@ deleteallbtn.addEventListener("click", function () {
     let addtaskbtn = document.getElementById("addtaskbtn");
     let webtask = localStorage.getItem("localtask");
     let taskObj = JSON.parse(webtask);
-    if (webtask == null) {
+    if (webtask === null) {
         taskObj = [];
     } else {
         taskObj = JSON.parse(webtask);

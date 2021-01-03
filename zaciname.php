@@ -1,7 +1,7 @@
 <?php
 include 'includes/header.php';
 ?>
-    <header>
+   <header>
         <div class="header-logo"><img src="img/webmajstrlogo.svg" alt="Logo stránky"></div>
         <nav class="navbar">
             <div class="dropdown">
@@ -47,7 +47,7 @@ include 'includes/header.php';
                         <path d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z"/>
                         <path d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z"/>
                     </svg>
-                    &nbsp Poznámky
+                    Poznámky
                 </h3>
                 <div class="form-row">
                     <div class="col-8 mr-sm-2">
@@ -96,14 +96,17 @@ include 'includes/header.php';
                 <h4>Grafika</h4>
             <p class="description">V této sekci se naučíš základní principy tvorby webového designu (webové grafiky).</p>
             <a href="#" class="fatLink">Rozvržení</a><a href="#" class="fatLink">Barvy</a><a href="#" class="fatLink">Typografie</a>
-                <h4>HTML</h4>
+                <h4><a href="#">HTML</a></h4>
             <p class="description">HTML je kostrou každého webu a tudíž i základ pro webový vývoj. Chceš-li začít tvořit webové stránky, pak musíš tento značkovací jazyk perfektně ovládat.</p>
-                <h4>CSS</h4>
+                <h4><a href="#">CSS</a></h4>
             <p class="description">Kaskádové styly nám pomáhají web „obarvit", přidat animace, a de facto přeměnit grafický návrh na funkční web.</p>
-                <H4>Nástroje</H4>
+                <H4><a href="#">Nástroje</a></H4>
             <p class="description">Zde najdeš celou řadu užitečných nástrojů a aplikací, které jsme osobně vybrali, a které ti pomůžou s tvorbou webových stránek a aplikací. Ať už to bude grafika či vývoj.</p>
-                <h4>Kvíz</h4>
+                <h4><a href="#">Kvíz</a></h4>
             <p class="description">Chceš si zkusit jak moc dobře ovládáš základy webového designu a vývoje? Máme pro tebe připravený malý test, pomocí kterého zjistíš jak na tom jsi.</p>
+            <hr class="content-divider">
+            <h3>O projektu</h3>
+            <p class="description">Tento web vytvořil Aleks D. Golotvinov jako seminární práci na předmět Tvroba a vývoj webových aplikací, ve spolupráce s KITTV a panem doktorem T. Jeřábkem.</p>
         </section>
     </section>
 <?php
