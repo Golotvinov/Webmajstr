@@ -5,14 +5,18 @@ include 'includes/header.php';
         <div class="header-logo"><img src="img/webmajstrlogo.svg" alt="Logo stránky"></div>
         <nav class="navbar">
             <div class="dropdown">
-                <button class="dropbtn">O Webu</button>
+                <button class="dropbtn">O Webu <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                        <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659l4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+                    </svg></button>
                 <div class="dropdown-content">
                     <a href="#">Internet</a>
                     <a href="#">Webové prohlížeče</a>
                 </div>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">Grafika</button>
+                <button class="dropbtn">Grafika <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
+                        <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659l4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
+                    </svg></button>
                 <div class="dropdown-content">
                     <a href="#">Rozvržení</a>
                     <a href="#">Barvy</a>
@@ -38,7 +42,7 @@ include 'includes/header.php';
         <aside>
             <div class="todoList">
                 <h3>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
                          class="bi bi-journals" viewBox="0 0 16 16">
                         <path d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z"/>
                         <path d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z"/>
@@ -84,15 +88,22 @@ include 'includes/header.php';
                 budeš
                 moci procvičit své zanlosti.</p>
             <p class="description">Tento projekt vznikl ve spolupráci s <a href="http://it.pedf.cuni.cz/" target="_blank">Katedrou informačních technologií a technické výchovy UK v Praze</a>.</p>
-            <div id="maincont"><h3>Obash:</h3>
+            <hr class="content-divider">
+            <h3>Obash:</h3>
                 <h4>O Webu</h4>
-                <h5>Internet</h5><h5>Webové prohlížeče</h5>
+                <p class="description">Ideální místo začít. Zde se dozvíš co je internet a jak funguje a pak i něco málo o internetových prohlížečích, tedy o software-u, který slouží k jeho prohlížení.</p>
+                <a href="#" class="fatLink">Internet</a><a href="#" class="fatLink">Webové prohlížeče</a>
                 <h4>Grafika</h4>
-                <h5>Rozvržení</h5><h5>Barvy</h5><h5>Typografie</h5>
+            <p class="description">V této sekci se naučíš základní principy tvorby webového designu (webové grafiky).</p>
+            <a href="#" class="fatLink">Rozvržení</a><a href="#" class="fatLink">Barvy</a><a href="#" class="fatLink">Typografie</a>
                 <h4>HTML</h4>
+            <p class="description">HTML je kostrou každého webu a tudíž i základ pro webový vývoj. Chceš-li začít tvořit webové stránky, pak musíš tento značkovací jazyk perfektně ovládat.</p>
                 <h4>CSS</h4>
+            <p class="description">Kaskádové styly nám pomáhají web „obarvit", přidat animace, a de facto přeměnit grafický návrh na funkční web.</p>
                 <H4>Nástroje</H4>
-                <h4>Kvíz</h4></div>
+            <p class="description">Zde najdeš celou řadu užitečných nástrojů a aplikací, které jsme osobně vybrali, a které ti pomůžou s tvorbou webových stránek a aplikací. Ať už to bude grafika či vývoj.</p>
+                <h4>Kvíz</h4>
+            <p class="description">Chceš si zkusit jak moc dobře ovládáš základy webového designu a vývoje? Máme pro tebe připravený malý test, pomocí kterého zjistíš jak na tom jsi.</p>
         </section>
     </section>
 <?php

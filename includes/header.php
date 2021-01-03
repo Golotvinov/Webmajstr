@@ -17,4 +17,4 @@
 
 <body>
 
-<hr>
+<hr class="headerHr">
