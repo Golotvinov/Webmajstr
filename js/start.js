@@ -32,4 +32,3 @@ submitNameBtn.onclick = function () {
         location.href="index.php";
     }
 }
-
