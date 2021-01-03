@@ -148,3 +148,8 @@ deleteallbtn.addEventListener("click", function () {
     showtask();
 
 })
+
+/* footer CURRENT YEAR */
+
+new Date().getFullYear()
+document.getElementById("currentYear").innerHTML = new Date().getFullYear();
