@@ -39,9 +39,9 @@ function showtask() {
         if (item.completeStatus == true) {
             taskCompleteValue = `<td class="completed">${item.task_name}</td>`;
         } else {
-            taskCompleteValue = `<td>${item.task_name}</td>`;
+            taskCompleteValue = `<td class="displayNote">${item.task_name}</td>`;
         }
-        html += `<tr>
+        html += `<tr class="noteRow">
                     <th scope="row">${index + 1}</th>
                     ${taskCompleteValue}
                     <td><button type="button" class="notesBtn btnEdit " onclick="edittask(${index})" class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" style="margin-bottom: -2px;" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">

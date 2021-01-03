@@ -194,6 +194,7 @@ div.btn {
 }
 
 input[type=text] {
+    min-width: 330px;
     padding: 12px 0;
     margin-bottom: 15px;
     box-sizing: border-box;
@@ -273,6 +274,7 @@ nav a {
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    cursor: pointer;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -362,6 +364,15 @@ aside {
 
 .btnDeleteAll:hover {
     background-color: var(--red);
+}
+
+.displayNote {
+    font-family: "Source Serif Pro", serif;
+    padding-left: 10px;
+}
+
+.noteRow {
+
 }
 
 /* ==============  FOOTER  ============== */

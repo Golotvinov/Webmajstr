@@ -19,7 +19,7 @@ include 'includes/header.php';
             <span class="close">&times;</span>
             <h2 class="modalH2">Předtím než začneme prosím napiš jak tě máme oslovovat:</h2>
             <form>
-                <input type="text" id="fname" placeholder="Např. Aleksi / Honzo / Markéto ..." required>
+                <input type="text" id="fname" placeholder="Např. Aleksi ..." required>
             </form>
             <br>
             <button id="submitNameBtn" class="button" type="button">Hotovo!</button>

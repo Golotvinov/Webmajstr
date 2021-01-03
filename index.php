@@ -71,7 +71,7 @@ include 'includes/header.php';
                     </button>
                 </div>
                 <div class="to-do-output">
-                    <table class="table table-striped mt-3 mb-0" id="addedtasklist">
+                    <table id="addedtasklist">
                     </table>
                 </div>
         </aside>
@@ -83,9 +83,7 @@ include 'includes/header.php';
                 hlavní nabídce zleva doprava, od sekce <a href="#">O Webu</a> až po <a href="#">Kvíz</a>, ve kterém si
                 budeš
                 moci procvičit své zanlosti.</p>
-            <p class="description">Tento projekt vznikl ve spolupráci s <a href="http://it.pedf.cuni.cz/"
-                                                                           target="_blank">Katedrou
-                    informačních technologií a technické výchovy UK v Praze</a>.</p>
+            <p class="description">Tento projekt vznikl ve spolupráci s <a href="http://it.pedf.cuni.cz/" target="_blank">Katedrou informačních technologií a technické výchovy UK v Praze</a>.</p>
             <div id="maincont"><h3>Obash:</h3>
                 <h4>O Webu</h4>
                 <h5>Internet</h5><h5>Webové prohlížeče</h5>
