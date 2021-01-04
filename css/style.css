@@ -350,6 +350,14 @@ nav a {
     color: var(--main-blue);
 }
 
+h4 > a {
+    color: #000;
+}
+
+h4 > a:hover {
+    color: var(--main-blue);
+}
+
 /* ==============  ASIDE - NOTES  ============== */
 
 aside {
