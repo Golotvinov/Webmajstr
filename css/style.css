@@ -21,7 +21,7 @@ body {
     overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Poppins", sans-serif;
 }
 
@@ -67,6 +67,21 @@ p > a {
 
 p > a:hover {
     color: var(--main-green);
+}
+
+ul {
+    margin: 40px 0;
+    padding-left: 19px;
+    list-style-type: square;
+}
+
+li::marker {
+    color: var(--main-blue);
+}
+
+ul > li {
+    font-size: 1.1em;
+    padding-bottom: 10px;
 }
 
 .headerHr {
@@ -368,6 +383,12 @@ h4 > a:hover {
 
 .contentImg {
     padding-top: 20px;
+}
+
+.browser-icon {
+    margin-top: 25px;
+    margin-bottom: 45px;
+    padding-right: 30px;
 }
 
 /* ==============  ASIDE - NOTES  ============== */
