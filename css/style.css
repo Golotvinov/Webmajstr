@@ -358,6 +358,18 @@ h4 > a:hover {
     color: var(--main-blue);
 }
 
+.ytLink {
+    color: var(--red);
+}
+
+.wikiLink {
+    color: #545454;
+}
+
+.contentImg {
+    padding-top: 20px;
+}
+
 /* ==============  ASIDE - NOTES  ============== */
 
 aside {
