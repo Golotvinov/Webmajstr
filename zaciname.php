@@ -2,15 +2,15 @@
 include 'includes/header.php';
 ?>
     <header>
-        <div class="header-logo"><img src="img/webmajstrlogo.svg" alt="Logo stránky"></div>
+        <div class="header-logo"><a href="/zaciname.php"><img src="img/webmajstrlogo.svg" alt="Logo stránky"></a></div>
         <nav class="navbar">
             <div class="dropdown">
                 <button class="dropbtn">O Webu <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down" viewBox="0 0 16 16">
                         <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659l4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
                     </svg></button>
                 <div class="dropdown-content">
-                    <a href="#">Internet</a>
-                    <a href="#">Webové prohlížeče</a>
+                    <a href="/internet.php">Internet</a>
+                    <a href="/wb.php">Webové prohlížeče</a>
                 </div>
             </div>
             <div class="dropdown">
@@ -18,15 +18,15 @@ include 'includes/header.php';
                         <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659l4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
                     </svg></button>
                 <div class="dropdown-content">
-                    <a href="#">Rozvržení</a>
-                    <a href="#">Barvy</a>
-                    <a href="#">Typografie</a>
+                    <a href="/layout.php">Rozvržení</a>
+                    <a href="/barvy.php">Barvy</a>
+                    <a href="/typografie.php">Typografie</a>
                 </div>
             </div>
-            <a href="#news">HTML</a>
-            <a href="#news">CSS</a>
-            <a href="#news">Nástroje</a>
-            <a href="#news" target="_blank">Kvíz
+            <a href="/html.php">HTML</a>
+            <a href="/styly.php">CSS</a>
+            <a href="/nastroje.php">Nástroje</a>
+            <a href="#" target="_blank">Kvíz
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                      class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
@@ -84,7 +84,7 @@ include 'includes/header.php';
             <p class="description">Na Webmajstru si můžeš témata studovat v libovolném pořadí, ale doporučujeme se držet
                 logicky navrženého pořadí, pokud s webovým designem a vývojem nemáš žádné předchozí zkušenosti. Postupuj
                 v
-                hlavní nabídce zleva doprava, od sekce <a href="#">O Webu</a> až po <a href="#">Kvíz</a>, ve kterém si
+                hlavní nabídce zleva doprava, od sekce <a href="/internet.php">O Webu</a> až po <a href="#">Kvíz</a>, ve kterém si
                 budeš
                 moci procvičit své zanlosti.</p>
             <p class="description">Tento projekt vznikl ve spolupráci s <a href="http://it.pedf.cuni.cz/" target="_blank">Katedrou informačních technologií a technické výchovy UK v Praze</a>.</p>
@@ -92,10 +92,10 @@ include 'includes/header.php';
             <h3>Obash:</h3>
                 <h4>O Webu</h4>
                 <p class="description">Ideální místo začít. Zde se dozvíš co je internet a jak funguje a pak i něco málo o internetových prohlížečích, tedy o software-u, který slouží k jeho prohlížení.</p>
-                <a href="#" class="fatLink">Internet</a><a href="#" class="fatLink">Webové prohlížeče</a>
+                <a href="/internet.php" class="fatLink">Internet</a><a href="/wb.php" class="fatLink">Webové prohlížeče</a>
                 <h4>Grafika</h4>
             <p class="description">V této sekci se naučíš základní principy tvorby webového designu (webové grafiky).</p>
-            <a href="#" class="fatLink">Rozvržení</a><a href="#" class="fatLink">Barvy</a><a href="#" class="fatLink">Typografie</a>
+            <a href="/layout.php" class="fatLink">Rozvržení</a><a href="/barvy.php" class="fatLink">Barvy</a><a href="typografie.php" class="fatLink">Typografie</a>
                 <h4>HTML</h4>
             <p class="description">HTML je kostrou každého webu a tudíž i základ pro webový vývoj. Chceš-li začít tvořit webové stránky, pak musíš tento značkovací jazyk perfektně ovládat.</p>
                 <h4>CSS</h4>
