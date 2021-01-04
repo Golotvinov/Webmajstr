@@ -9,17 +9,17 @@ $context = Context::getInstance();
 $context->setPath($path);
 $page = $context->getPage();
 if ($page === null) {
-    header("HTTP/1.0 404 Not Found");
-    require __DIR__ . '/includes/error.php';
-    exit;
+	header("HTTP/1.0 404 Not Found");
+	require __DIR__ . '/includes/error.php';
+	exit;
 }
 
 switch ($path) {
-    case 'homepage':
-        $layout = 'default-layout.php';
-        break;
-    default:
-        $layout = 'with-menu-layout.php';
+	case 'homepage':
+		$layout = 'default-layout.php';
+		break;
+	default:
+		$layout = 'with-menu-layout.php';
 }
 
 require __DIR__ . '/includes/' . $layout;

@@ -1,11 +1,11 @@
 <section class="main">
-    <img src="../../../../Downloads/BACKUP_WEBMAJSTR/img/webmajstrlogo.svg" class="logo-big" alt="Logo stránky">
+    <img src="/img/webmajstrlogo.svg" class="logo-big" alt="Logo stránky">
     <h1 class="hero">Vítá vás <span>Webmajstr</span>!</h1>
     <p>Webmajstr je webová miniaplikace, která vám pomůže pochopit základy webového vývoje. Představí vám jak web
         funguje, fundamentální koncepty kódování, tipy a triky a nakonec vám nabídne i kvíz, kde si budete moci
         vyzkoušet své nově dobyté znalosti. </p>
     <section class="webwireframe">
-        <img src="../../../../Downloads/BACKUP_WEBMAJSTR/img/webwireframe.svg" id="ww" alt="Vektorové schéma prototypu webových stránek">
+        <img src="/img/webwireframe.svg" id="ww" alt="Vektorové schéma prototypu webových stránek">
     </section>
     <div class="btn">
         <button id="button2" class="button" type="button">JDEME NA TO!</button>
@@ -22,7 +22,7 @@
         </div>
     </div>
 </section>
-<script src="../../../../Downloads/BACKUP_WEBMAJSTR/js/start.js"></script>
+<script src="/js/start.js"></script>
 
 <script>
     new Date().getFullYear()

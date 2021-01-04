@@ -29,6 +29,6 @@ submitNameBtn.onclick = function () {
 
     if (key) {
         localStorage.setItem('fname', fname.value);
-        location.href="index.php";
+        location.href="zaciname";
     }
 }

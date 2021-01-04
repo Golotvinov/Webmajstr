@@ -4,8 +4,8 @@ require __DIR__ . '/blocks/header.php';
 ?>
 
     <header>
-        <div class="header-logo"><img src="../../../Downloads/BACKUP_WEBMAJSTR/img/webmajstrlogo.svg"
-                                      alt="Logo stránky"></div>
+        <div class="header-logo"><a href="/zaciname"><img src="../img/webmajstrlogo.svg"
+                                      alt="Logo stránky"></a></div>
         <nav class="navbar">
             <div class="dropdown">
                 <button class="dropbtn">O Webu
@@ -15,8 +15,8 @@ require __DIR__ . '/blocks/header.php';
                     </svg>
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Internet</a>
-                    <a href="#">Webové prohlížeče</a>
+                    <a href="/internet">Internet</a>
+                    <a href="/wb">Webové prohlížeče</a>
                 </div>
             </div>
             <div class="dropdown">
@@ -27,15 +27,15 @@ require __DIR__ . '/blocks/header.php';
                     </svg>
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Rozvržení</a>
-                    <a href="#">Barvy</a>
-                    <a href="#">Typografie</a>
+                    <a href="/layout">Rozvržení</a>
+                    <a href="/barvy">Barvy</a>
+                    <a href="/typografie">Typografie</a>
                 </div>
             </div>
-            <a href="#news">HTML</a>
-            <a href="#news">CSS</a>
-            <a href="#news">Nástroje</a>
-            <a href="#news" target="_blank">Kvíz
+            <a href="/html">HTML</a>
+            <a href="/styly">CSS</a>
+            <a href="/nastroje">Nástroje</a>
+            <a href="#" target="_blank">Kvíz
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                      class="bi bi-box-arrow-up-right" viewBox="0 0 16 16">
                     <path fill-rule="evenodd"
