@@ -401,7 +401,7 @@ aside {
 .displayNote {
     font-family: "Source Serif Pro", serif;
     padding-left: 10px;
-    width: 100%;
+    max-width: 500px;
 }
 
 /* ==============  FOOTER  ============== */
