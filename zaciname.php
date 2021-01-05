@@ -81,29 +81,29 @@ include 'includes/header.php';
         </aside>
         <section id="main-content-area">
             <h2>Začínáme.</h2>
-            <p class="description">Na Webmajstru si můžeš témata studovat v libovolném pořadí, ale doporučujeme se držet
+            <p class="text">Na Webmajstru si můžeš témata studovat v libovolném pořadí, ale doporučujeme se držet
                 logicky navrženého pořadí, pokud s webovým designem a vývojem nemáš žádné předchozí zkušenosti. Postupuj
                 v
                 hlavní nabídce zleva doprava, od sekce <a href="internet.php">O Webu</a> až po <a href="#">Kvíz</a>, ve kterém si
                 budeš
                 moci procvičit své zanlosti.</p>
-            <p class="description">Tento projekt vznikl ve spolupráci s <a href="http://it.pedf.cuni.cz/" target="_blank">Katedrou informačních technologií a technické výchovy UK v Praze</a>.</p>
+            <p class="text">Tento projekt vznikl ve spolupráci s <a href="http://it.pedf.cuni.cz/" target="_blank">Katedrou informačních technologií a technické výchovy UK v Praze</a>.</p>
             <hr class="content-divider">
             <h3>Obash:</h3>
                 <h4>O Webu</h4>
-                <p class="description">Ideální místo začít. Zde se dozvíš co je internet a jak funguje a pak i něco málo o internetových prohlížečích, tedy o software-u, který slouží k jeho prohlížení.</p>
+                <p class="text">Ideální místo začít. Zde se dozvíš co je internet a jak funguje a pak i něco málo o internetových prohlížečích, tedy o software-u, který slouží k jeho prohlížení.</p>
                 <a href="internet.php" class="fatLink">Internet</a><a href="wb.php" class="fatLink">Webové prohlížeče</a>
                 <h4>Grafika</h4>
-            <p class="description">V této sekci se naučíš základní principy tvorby webového designu (webové grafiky).</p>
+            <p class="text">V této sekci se naučíš základní principy tvorby webového designu (webové grafiky).</p>
             <a href="layout.php" class="fatLink">Rozvržení</a><a href="barvy.php" class="fatLink">Barvy</a><a href="typografie.php" class="fatLink">Typografie</a>
                 <h4><a href="html.php">HTML</a></h4>
-            <p class="description">HTML je kostrou každého webu a tudíž i základ pro webový vývoj. Chceš-li začít tvořit webové stránky, pak musíš tento značkovací jazyk perfektně ovládat.</p>
+            <p class="text">HTML je kostrou každého webu a tudíž i základ pro webový vývoj. Chceš-li začít tvořit webové stránky, pak musíš tento značkovací jazyk perfektně ovládat.</p>
             <h4><a href="styly.php">CSS</a></h4>
-            <p class="description">Kaskádové styly nám pomáhají web „obarvit", přidat animace, a de facto přeměnit grafický návrh na funkční web.</p>
+            <p class="text">Kaskádové styly nám pomáhají web „obarvit", přidat animace, a de facto přeměnit grafický návrh na funkční web.</p>
             <h4><a href="nastroje.php">Nástroje</a></h4>
-            <p class="description">Zde najdeš celou řadu užitečných nástrojů a aplikací, které jsme osobně vybrali, a které ti pomůžou s tvorbou webových stránek a aplikací. Ať už to bude grafika či vývoj.</p>
+            <p class="text">Zde najdeš celou řadu užitečných nástrojů a aplikací, které jsme osobně vybrali, a které ti pomůžou s tvorbou webových stránek a aplikací. Ať už to bude grafika či vývoj.</p>
             <h4><a href="#">Kvíz</a></h4>
-            <p class="description">Chceš si zkusit jak moc dobře ovládáš základy webového designu a vývoje? Máme pro tebe připravený malý test, pomocí kterého zjistíš jak na tom jsi.</p>
+            <p class="text">Chceš si zkusit jak moc dobře ovládáš základy webového designu a vývoje? Máme pro tebe připravený malý test, pomocí kterého zjistíš jak na tom jsi.</p>
         </section>
     </section>
 <?php
