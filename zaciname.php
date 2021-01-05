@@ -18,7 +18,7 @@ include 'includes/header.php';
                         <path d="M3.204 5h9.592L8 10.481 3.204 5zm-.753.659l4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659z"/>
                     </svg></button>
                 <div class="dropdown-content">
-                    <a href="layout.php">Rozvržení</a>
+                    <a href="layout.php">Rozložení</a>
                     <a href="barvy.php">Barvy</a>
                     <a href="typografie.php">Typografie</a>
                 </div>
@@ -47,7 +47,7 @@ include 'includes/header.php';
                         <path d="M5 0h8a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2 2 2 0 0 1-2 2H3a2 2 0 0 1-2-2h1a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1H1a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v9a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H5a1 1 0 0 0-1 1H3a2 2 0 0 1 2-2z"/>
                         <path d="M1 6v-.5a.5.5 0 0 1 1 0V6h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 3v-.5a.5.5 0 0 1 1 0V9h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1H1zm0 2.5v.5H.5a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1H2v-.5a.5.5 0 0 0-1 0z"/>
                     </svg>
-                    &nbsp Poznámky
+                    Poznámky
                 </h3>
                 <div class="form-row">
                     <div class="col-8 mr-sm-2">
@@ -95,7 +95,7 @@ include 'includes/header.php';
                 <a href="internet.php" class="fatLink">Internet</a><a href="wb.php" class="fatLink">Webové prohlížeče</a>
                 <h4>Grafika</h4>
             <p class="text">V této sekci se naučíš základní principy tvorby webového designu (webové grafiky).</p>
-            <a href="layout.php" class="fatLink">Rozvržení</a><a href="barvy.php" class="fatLink">Barvy</a><a href="typografie.php" class="fatLink">Typografie</a>
+            <a href="layout.php" class="fatLink">Rozložení</a><a href="barvy.php" class="fatLink">Barvy</a><a href="typografie.php" class="fatLink">Typografie</a>
                 <h4><a href="html.php">HTML</a></h4>
             <p class="text">HTML je kostrou každého webu a tudíž i základ pro webový vývoj. Chceš-li začít tvořit webové stránky, pak musíš tento značkovací jazyk perfektně ovládat.</p>
             <h4><a href="styly.php">CSS</a></h4>
