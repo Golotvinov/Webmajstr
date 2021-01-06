@@ -221,6 +221,7 @@ pre .line-highlight {
 
 div.code-toolbar {
 	position: relative;
+	margin: 50px 0;
 }
 
 div.code-toolbar > .toolbar {

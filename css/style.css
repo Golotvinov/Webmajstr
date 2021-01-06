@@ -401,6 +401,18 @@ h4 > a:hover {
     width: 46px;
 }
 
+.no-margin-ul {
+    margin: 0;
+}
+
+.h5-margin-top {
+    margin-top: 25px;
+}
+
+.cp_embed_wrapper {
+    margin: 20px 0;
+}
+
 /* ==============  ASIDE - NOTES  ============== */
 
 aside {
