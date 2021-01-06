@@ -9,6 +9,7 @@
     <title>&dash; Webmajstr &dash;</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/prism.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Source+Serif+Pro&display=swap"
           rel="stylesheet">

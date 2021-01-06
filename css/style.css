@@ -397,12 +397,16 @@ h4 > a:hover {
     padding-right: 30px;
 }
 
+.titleIcon {
+    width: 46px;
+}
+
 /* ==============  ASIDE - NOTES  ============== */
 
 aside {
     max-width: 400px;
     margin-right: 50px;
-    padding-top: 4px;
+    padding-top: 5px;
 }
 
 .notesBtn {
