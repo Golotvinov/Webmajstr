@@ -386,6 +386,11 @@ h4 > a:hover {
     color: #545454;
 }
 
+.linkBotPad {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
 .contentImg {
     max-width: 900px;
     padding: 30px 0;

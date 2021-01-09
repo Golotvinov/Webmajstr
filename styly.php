@@ -204,9 +204,56 @@ include 'includes/header.php';
                         text-decoration: none;
                     }
 
-                    /* Tagy typu a (odkazy), které se nachází uvnitř h2 elementu, nebudou mít žádnou dekoraci textu. */
+                    /* Tagy typu "a" (odkazy), které se nachází uvnitř rodičovského h2 elementu, nebudou mít žádnou dekoraci textu. */
                 </code>
             </pre>
+            <pre>
+                <code class="language-css">
+                    section button {
+                        display: inline-block;
+                    }
+
+                    /* Všechny prvky typu "button", které se nachází uvnitř v selection, budou mít vlastnost display: inline-block. */
+                </code>
+            </pre>
+            <p class="text">Kompletní seznam selektorů a pseudoselektorů nakdete na w3schools, konkrétní odkaz níže.</p>
+            <a href="https://www.w3schools.com/cssref/css_selectors.asp" class="fatLink linkBotPad" target="_blank">w3schools - Seznam selektorů v CSS</a>
+            <p class="text">Ještě se podíváme na nejpoužívanější pseudo-třídu <b>hover</b>, která slouží k definování toho co se má stát po najetí myší na daný prvek.</p>
+            </pre>
+            <pre>
+                <code class="language-css">
+                    h3:hover {
+                        background-color: pink;
+                    }
+
+                    /* Když najedem myší na h3 element, tak se obarví do růžova. */
+                </code>
+            </pre>
+            <h4>Cvičení</h4>
+            <p class="text">Jednotlivá cvičení můžete vyplňovat přímo zde, nebo u sebe ve vlastním textovém editoru.
+                Pokud nefunguje vyplnění zde, stačí kliknout nahoře vpravo na „Edit on CodePen" a vypracovat to tam.</p>
+            <h5 class="h5-margin-top">Cvičení 2: Pokročilé selektory</h5>
+            <p class="text">Vyberte všechny odkazy v seznamu a aplikujte jím následující pravidla:</p>
+            <p class="text">
+            <ul class="no-margin-ul">
+                <li><b>display:</b> block</li>
+                <li><b>color:</b> white</li>
+                <li><b>text-decoration:</b> none</li>
+                <li><b>text-align:</b> center</li>
+                <li><b>padding:</b> 14px 16px</li>
+            </ul>
+            </p>
+            <p class="text">Dále po najetí myší na odkaz se má změnit barva pozadí (vyberte libovolnou barvu).</p>
+            <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="css,result" data-user="aleksgo" data-slug-hash="XWjBBOg" data-editable="true" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS Cvičení 2">
+  <span>See the Pen <a href="https://codepen.io/aleksgo/pen/XWjBBOg">
+  CSS Cvičení 2</a> by Aleks (<a href="https://codepen.io/aleksgo">@aleksgo</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <h4>Vlastnosti (properties)</h4>
+            <p class="text">Selektory jsou celkem intuitivní. Je to v podstatě jakýkoliv prvek / element z <a
+                        href="https://cs.wikipedia.org/wiki/Document_Object_Model" target="_blank">DOM</a>-u. Jaké vlastnosti ale můžeme upravovat u každého z nich nemusí být na první pohled jasné. Obecně však platí, že to co má smysl nějak měnit tak měnit lze. Chcete aby byl text poloprůhledný a na pozadí byl přes celou obrazovku obrázek? Není problém. Upravovat ale velikost písma u obrázků není moc logické ...</p>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Properties_Reference" class="fatLink linkBotPad" target="_blank">MDN - Seznam nejpoužívanějších selektorů</a>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference" class="fatLink" target="_blank linkBotPad">MDN - Kompletní seznam selektorů</a>
         </section>
     </section>
 <?php
