@@ -210,7 +210,6 @@ include 'includes/header.php';
                 <p class="text">Další užitečné zdroje na studium HTML:</p>
             <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="fatLink" target="_blank">MDN - Mozilla Web Docs</a>
             <a href="https://www.w3schools.com/html/default.asp" class="fatLink" target="_blank">w3schools - HTML</a>
-            </p>
         </section>
     </section>
 <?php
