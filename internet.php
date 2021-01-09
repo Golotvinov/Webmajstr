@@ -94,7 +94,7 @@ include 'includes/header.php';
                 </svg> &nbsp Wikipedia: Internet</a>
             <h4>WWW</h4>
             <p class="text">WWW je zkratkou pro World Wide Web, česky celosvětová síť, je nejznámějším systémem na Internetu. Slouží ke sdílení hypertextových dokumentů. Mnoho lidí zaměňuje pojmy Internet a WWW, ale jak již víme, tak WWW je pouze jednou složkou celého systému. V této síti se šíří speciální dokumenty obsahující hypertextové odkazy a multimediální obsah - webové stránky. Pro zobrazení jakéhokoliv webu je nutné, aby byl uživatel napojen na internet, měl webový prohlížeč a znal URL adresu serveru (vzdáleného počítače, který nám obsah poskytuje), který jej obsahuje. Autorem je Tim Berners Lee.</p>
-            <img src="img/wwwmap.png" alt="Mapa WWW" class="contentImg">
+            <img src="img/undraw_connected_world_wuay.svg" alt="Mapa WWW" class="contentImg">
             <h4>Připojení</h4>
             <p class="text">Přístup k nám může nabídnout poskytovatel internetových služeb (ISP - Internet Service Provider). Samotné zapojení zařízení do sítě pak může probíhat buď kabelově nebo bezdrátově. Při fyzickém zapojení se nejčastěji setkáme s telefonní linkou (technologie z řady DSL) či kabelovou přípojkou. Připojit se můžeme i k bezdrátovým sítím, pokud se nacházíme na místě, kde je signál. Nejčastější technologie jsou Wi-Fi a mobilní sítě „xG" (např. 4G, LTE, 5G, 6G a další).</p>
             <h4>Protokoly</h4>
